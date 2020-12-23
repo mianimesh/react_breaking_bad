@@ -9,8 +9,8 @@ function App(){
   return(
 
     <div className='app' align = 'center'>
-    <div class="md-form mt-0">
-      <input class="form-control" type="text" onChange={event =>{setSearchTerm(event.target.value)}} placeholder="Search Characters in The Breaking Bad" aria-label="Search"></input>
+    <div class="md-form active-pink active-pink-2 mb-3 mt-0">
+      <input class="form-control" type="text" onChange={event =>{setSearchTerm(event.target.value)}} placeholder="Search" aria-label="Search Your Breaking Bad Character"></input>
     </div>
     <div class='spacer'></div>
     <b>Click on boxes to toggle between informative mode and normal mode</b>
